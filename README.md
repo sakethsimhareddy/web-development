@@ -29,8 +29,6 @@ script.js: This file contains the JavaScript code responsible for the calculator
 Contributing
 Contributions to this calculator project are welcome. If you find any issues or would like to add new features, feel free to open an issue or submit a pull request.
 
-License
-The calculator is licensed under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
 
 Author
 This calculator was created by Saketh Simha Reddy.

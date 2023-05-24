@@ -2,7 +2,8 @@
 Calculator
 This is a basic calculator built using HTML, CSS, and JavaScript. It provides a simple user interface for performing mathematical calculations.
 
-Screenshot 2023-05-24 083415.png
+<img width="151" alt="Screenshot 2023-05-24 083415" src="https://github.com/SakethSaimhaReddy/calculator_web/assets/130767932/c5c237a2-1e7b-4a7d-84a6-0fa505dad504">
+
 
 Features
 Addition, subtraction, multiplication, and division operations

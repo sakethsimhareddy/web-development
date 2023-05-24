@@ -12,29 +12,31 @@ h1{
  background-color: rgb(53, 52, 52); 
   border: none;
   color:white;
-  padding: 2rem;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 30px;
-  margin: 3;
-  border-radius: 1rem;
+  font-size: 16px;
+  margin: 4;
+  border-radius: 30px;
 }
 .button2{
     background-color: rgb(149, 149, 149); 
      border: none;
      color:white;
-     padding: 30px;
+     padding: 15px;
      text-align: center;
      text-decoration: none;
      display: inline-block;
-     font-size: 32px;
+     font-size: 16px;
      margin: 3;
-     border-radius: 100rem;
+     border-radius: 30px;
    }
 body{
     background-color: rgb(27, 27, 27);
     display: inline-block;
+    box-sizing: content-box;
+    padding: 50px;
 }
 .row
 {
@@ -43,13 +45,13 @@ body{
 .display{
     
     border:none;
-    background: white;
-    border-radius: 30px;
-    width: 350;
+    background:whitesmoke;
+    border-radius: 11px;
+    width: 190;
     font-size: 20;
     font-family: sans-serif;
     font-weight: 300;
-    height: 75;
+    height: 50;
     margin: auto;
     border:2px solid white(5, 218, 255, 0.726);
     color: black;

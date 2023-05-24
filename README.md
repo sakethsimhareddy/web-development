@@ -1,7 +1,8 @@
 # calculator_web
 Calculator
 This is a basic calculator built using HTML, CSS, and JavaScript. It provides a simple user interface for performing mathematical calculations.
-<img width="272" alt="Screenshot 2023-05-24 003223" src="https://github.com/SakethSaimhaReddy/calculator_web/assets/130767932/47374b12-f541-4024-a1f3-331ed975b44a">
+
+Screenshot 2023-05-24 083415.png
 
 Features
 Addition, subtraction, multiplication, and division operations

@@ -3,20 +3,20 @@
     margin: 0;
 }
 body{
+    display: flex;
+    justify-content: center;
     padding-top: 15rem;
     justify-items: center;
     text-align: center;
     background: url(img/background.jpg) no-repeat center center/cover;
      
 }
+
 .container{
-    justify-items: center;
-    text-align: center;
     background-color: aliceblue;
     width: 20rem;
     height: 10rem;
     border-radius: 2rem;
-    margin-left: 10rem;
 }
 .timer{
     text-align: center;

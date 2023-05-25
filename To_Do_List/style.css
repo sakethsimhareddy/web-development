@@ -1,0 +1,25 @@
+
+body{
+    height: 100vh;
+    background: url(img/background.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inputArea{
+    height: 5rem;
+    width: 17rem;
+    background-color:whitesmoke;
+    padding-top: 3rem;
+    border-radius: 4rem;
+}
+#task{
+    width: 200px;
+    height: 30px;
+}
+.addTask{
+    height: 30px;
+    background-color: rgb(173, 197, 230);
+    color: whitesmoke;
+}

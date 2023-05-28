@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quizz website</title>
+    <link rel="stylesheet" href="quizzstyle.css">
+</head>
+<body>
+    <div class="app">
+       <h1>Online Quizz</h1>
+       <div class="main">
+       <div class="quizz">
+        <h2 id="question"></h2>
+        <div class="details">
+        <div class="timer-div">
+            <img src="timer.png" alt="" width="20px">
+            <span class="time-left">10s</span>
+        </div>
+        <div class="timer-div" id="points">
+            points:0
+        </div>
+        <div class="timer-div" id="noOf">
+            1 of 5 questions
+        </div>
+        </div>
+        <div id="answer-buttons">
+            <button class="btn" id="ops1"></button>
+            <button class="btn" id="ops2"></button>
+            <button class="btn" id="ops3"></button>
+            <button class="btn" id="ops4"></button>
+        </div>
+        <button id="nextBtn">Next</button>
+       </div> 
+    </div>
+    <div class="start" id="start">
+        <ul>
+            <h2>quiz rules</h2>
+            <li>
+                All questions may be timed, and participants must submit their answers within the specified time limit. Failure to submit within the time limit will result in no points awarded for that question.
+            </li>
+            <li>
+                Each question in the quiz will have one correct answer. Participants will earn points for selecting the correct answer.
+            </li>
+            <li>
+                Participants will not receive any points for selecting an incorrect answer.
+            </li>
+        </ul>
+        
+        
+        <button class="startbtn">start</button></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

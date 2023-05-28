@@ -10,20 +10,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="weather.css">
 </head>
+</head>
 <body>
     <div class="card">
-        <div class="search">
+        <div class="search" >
             <input type="text" class="search-bar"  id="search" placeholder="Search ">
             <button id="searchbtn"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg></button>
 
         </div>
-        <div class="weather">
-            <h2>Weather in tirupati</h2>
-            <div class="temp"><h2>51°C</h2></div>
-            <img src="" class="icon"/>
-            <div class="description">Cloudy</div>
-            <div class="humidity">Humidity: 60% </div>
-            <div class="wind">wind speed:6.9km</div>
+        <div class="start" id="start">
+            Discover the current condition by entering the location
+        </div>
+        <div class="weather" id="weather">
+            <h2 id="name"></h2>
+            <div class="temp" id="temp"></div>
+            <div class="description" id="description"></div>
+            <div class="humidity" id="humidity"></div>
+            <div class="wind" id="wind"></div>
         </div>
     </div>
     <script src="script.js"></script>

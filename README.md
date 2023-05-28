@@ -8,6 +8,10 @@ This repository contains two web development projects: a Calculator and a Quote 
 
 The Calculator project is a basic calculator that allows users to perform mathematical calculations. It provides a user-friendly interface with buttons for numbers, operators, and special functions. The calculator supports addition, subtraction, multiplication, and division operations, as well as percentage calculation. The display area shows the entered numbers and the result of the calculations.
 
+# To-Do List Web Application
+
+This is a simple web application that allows you to create a to-do list. You can add tasks, mark them as completed, and delete them from the list.
+
 # Stopwatch
 
 The Stopwatch project is a simple stopwatch implemented using HTML, CSS, and JavaScript. It provides a user interface with a timer display and buttons to start/stop the stopwatch and reset it.

@@ -231,7 +231,6 @@ function question_gernarator() {
     ops3.innerText=list[random].option.o3;
     ops4.innerText=list[random].option.o4;
     correctAns=list[random].correct;
-    count++;
     noOfQuestion.innerText=count.toString()+'of 5 Question'
 
 }
@@ -239,7 +238,7 @@ start.addEventListener("click", function () {
   start.parentNode.style.display = "none";
   main.style.display = "contents";
   qno=[]
-  count=0
+  count=1
   noOfQuestion.innerText= count.toString()+' of 5 question'
   points=0
   point.innerText='points: '+points.toString();
@@ -273,14 +272,17 @@ start.addEventListener("click", function () {
   Array.from(buttons).forEach((button)=>{
     button.disabled=false}
    )
+    count++
     clearInterval(timerInterval);
     startTimer();
     temp=''
-    if (count!=5) {
+    if (count<6) {
       question_gernarator()
       
     }
     else{
+      alert('game over ')
+      clearInterval(timerInterval)
       startArea.style.display="contents";
       main.style.display = 'none' ;
 
@@ -301,9 +303,12 @@ function startTimer() {
     if (timeLeft === 0) {
       alert('time up');
       if (count >= 5) {
+        alert('game over')
+        clearInterval(timerInterval)
         startArea.style.display="contents";
         main.style.display = 'none' ;
       } else {
+        count++
         question_gernarator()
       }
     }
